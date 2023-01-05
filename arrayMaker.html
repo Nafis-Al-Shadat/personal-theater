@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/arryMaker.css">
+    <title>Create Array</title>
+</head>
+<body>
+    <main>
+        <div>
+            <input id ="nameOfItem" type="text" placeholder="name" required>
+        </div>
+        <div>
+            <input type="number" name="" id="year" placeholder="release year" required>
+        </div>
+        <div>
+            <select name="type" id="type1">
+                <option value="Movie">Movie</option>
+                <option value="Tv Series">Tv Series</option>
+            </select>
+        </div>
+        <div>
+            <select name="type" id="type2">
+                <option value="Animated">Animated</option>
+                <option value="Live Action">Live Action</option>
+            </select>
+        </div>
+        <div>
+            <select name="type" id="language">
+                <option value="Hindi">Hindi</option>
+                <option value="English">English</option>
+                <option value="Dual">Dual</option>
+                <option value="Bangla">Bangla</option>
+            </select>
+        </div>
+        <div>
+            <select name="quality" id="quality">
+                <option value="1080p">1080p</option>
+                <option value="720p">720p</option>
+                <option value="4k">4k</option>
+            </select>
+        </div>
+        <div>
+            <input type="number" name="" id="hour" placeholder="hour" required>
+        </div>
+        <div>
+            <input type="number" name="" id="minute" placeholder="minute" required>
+        </div>
+        <button id="makeObject">Done</button>
+    </main>
+    <footer>
+        <div id="status"></div>
+        <button id = "copy">Copy</button>
+    </footer>
+    <script src="javascript/arrayMaker.js"></script>
+</body>
+</html>
